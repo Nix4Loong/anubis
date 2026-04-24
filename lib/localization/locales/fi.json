@@ -42,7 +42,7 @@
   "benchmarking_anubis": "Testataan Anubis!",
   "you_are_not_a_bot": "Et ole robotti!",
   "making_sure_not_bot": "Varmistetaan ettet ole robotti!",
-  "celphase": "CELPHASE",
+  "celphase": "天羽 りんな",
   "js_web_crypto_error": "Selaimesi web.crypto elementti ei toimi. Onko yhteytesi suojattu?",
   "js_web_workers_error": "Selaimesi ei tue Web Workers ominaisuutta. Anubis käyttää tätä estääkseen selaimesi lukkiutumisen. Onko sinulla liitännäinen, kuten jShelter käytössä?",
   "js_cookies_error": "Selaimesi ei tallenna evästeitä. Anubis tallentaa allekirjoitetun merkinnän evästeeseen, tunnistaakseen haasteen läpäisseet käyttäjät. Sallithan evästeiden tallentamisen tälle verkkotunnukselle. Tallennettujen evästeiden nimet voivat vaihdella. Evästeiden nimet ja arvot eivät ole osa julkista rajapintaa.",

@@ -47,7 +47,7 @@ func (i *Impl) Issue(w http.ResponseWriter, r *http.Request, lg *slog.Logger, in
 
 	loc := localization.GetLocalizer(r)
 
-	result := page(u.String(), in.Rule.Challenge.Difficulty, showMeta, loc)
+	result := page(u.String(), in.Rule.Challenge.Difficulty, showMeta, loc, anubis.MascotSet())
 
 	return result, nil
 }

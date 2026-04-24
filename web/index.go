@@ -7,6 +7,7 @@ import (
 
 	"github.com/a-h/templ"
 
+	"github.com/TecharoHQ/anubis"
 	"github.com/TecharoHQ/anubis/lib/challenge"
 	"github.com/TecharoHQ/anubis/lib/config"
 	"github.com/TecharoHQ/anubis/lib/localization"
@@ -27,11 +28,11 @@ func BaseWithChallengeAndOGTags(title string, body templ.Component, impressum *c
 }
 
 func ErrorPage(msg, mail, code string, localizer *localization.SimpleLocalizer) templ.Component {
-	return errorPage(msg, mail, code, localizer)
+	return errorPage(msg, mail, code, localizer, anubis.MascotSet())
 }
 
 func Bench(localizer *localization.SimpleLocalizer) templ.Component {
-	return bench(localizer)
+	return bench(localizer, anubis.MascotSet())
 }
 
 func honeypotLink(href string) templ.Component {

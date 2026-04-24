@@ -8,6 +8,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/TecharoHQ/anubis"
 	"github.com/TecharoHQ/anubis/internal"
 	chall "github.com/TecharoHQ/anubis/lib/challenge"
 	"github.com/TecharoHQ/anubis/lib/localization"
@@ -29,7 +30,7 @@ func (i *Impl) Setup(mux *http.ServeMux) {}
 
 func (i *Impl) Issue(w http.ResponseWriter, r *http.Request, lg *slog.Logger, in *chall.IssueInput) (templ.Component, error) {
 	loc := localization.GetLocalizer(r)
-	return page(loc), nil
+	return page(loc, anubis.MascotSet()), nil
 }
 
 func (i *Impl) Validate(r *http.Request, lg *slog.Logger, in *chall.ValidateInput) error {

@@ -42,7 +42,7 @@
   "benchmarking_anubis": "Anubisのベンチマーク中！",
   "you_are_not_a_bot": "あなたはボットではありません！",
   "making_sure_not_bot": "あなたがボットでないことを確認しています！",
-  "celphase": "CELPHASE",
+  "celphase": "天羽 りんな",
   "js_web_crypto_error": "お使いのブラウザには正常に動作するweb.crypto要素がありません。安全なコンテキストで閲覧していますか？",
   "js_web_workers_error": "お使いのブラウザはWebワーカーをサポートしていません（Anubisはこれでブラウザのフリーズを防ぎます）。JShelterのようなプラグインを使用していませんか？",
   "js_cookies_error": "お使いのブラウザはCookieを保存しません。Anubisは、チャレンジを通過したクライアントを判別するために署名付きトークンをCookieに保存します。このドメインでCookieの保存を有効にしてください。Anubisが保存するCookie名は予告なく変更される場合があります。Cookie名や値は公開APIの一部ではありません。",

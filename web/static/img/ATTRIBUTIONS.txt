@@ -1,3 +1,9 @@
-These mascot images were made by CELPHASE (https://bsky.app/profile/celphase.bsky.social).
+These mascot images were commissioned by darkyzhou and illustrated by
+天羽 りんな (https://x.com/xxrinna). All rights to the images are held
+by darkyzhou.
 
-These images are available under the terms of the MIT license that this repository uses.
+These images are not covered by the MIT license that applies to the
+rest of this repository.
+
+The original upstream Anubis mascots by CELPHASE (https://bsky.app/profile/celphase.bsky.social)
+are no longer bundled; see the Anubis project if you need them.

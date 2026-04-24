@@ -44,7 +44,7 @@
   "benchmarking_anubis": "Đang benchmark Anubis!",
   "you_are_not_a_bot": "Bạn không phải là bot!",
   "making_sure_not_bot": "Đảm bảo bạn không phải là bot!",
-  "celphase": "CELPHASE",
+  "celphase": "天羽 りんな",
   "js_web_crypto_error": "Trình duyệt của bạn không có web.crypto hoạt động. Liệu bạn có đang xem trang này với kết nối bảo mật không?",
   "js_web_workers_error": "Trình duyệt của bạn không hỗ trợ tính năng web worker (Anubis sử dụng để trình duyệt của bạn bị đơ). Bạn có cài đặt và sử dụng phần mở rộng như JShelter hay không?",
   "js_cookies_error": "Trình duyệt của bạn không lưu cookie. Anubis sử dụng cookie để xác định client nào đã đạt thành công thử thách bằng cách chứa một token đã được xác thực trong cookie. Vui lòng bật lưu trữ cookie cho tền miền này. Tên và cookie Anubis chứa vào có thể thay đổi khác nhau mà không báo trước. Tên và giá trị cookie không phải là một phần của API công khai.",

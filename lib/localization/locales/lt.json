@@ -36,7 +36,7 @@
   "invalid_redirect": "Netinkamas nukreipimas",
   "redirect_not_parseable": "Nukreipimo adreso nepavyko išanalizuoti",
   "redirect_domain_not_allowed": "Nukreipimo domenas neleistinas",
-  "missing_required_forwarded_headers": "Trūksta būtinų „X-Forwarded-*“ antraščių",
+  "missing_required_forwarded_headers": "Trūksta privalomų X-Forwarded-* antraščių",
   "failed_to_sign_jwt": "nepavyko pasirašyti JWT",
   "invalid_invocation": "Netinkamas kreipinys į „MakeChallenge“",
   "client_error_browser": "Problema klientinėje dalyje: įsitikinkite, jog jūsų naršyklė nepasenusi ir bandykite dar kartą.",
@@ -44,7 +44,7 @@
   "benchmarking_anubis": "Vertinama „Anubis“ sparta!",
   "you_are_not_a_bot": "Jūs nesate robotas!",
   "making_sure_not_bot": "Stengiamasi užtikrinti, jog jūs nesate robotas!",
-  "celphase": "CELPHASE",
+  "celphase": "天羽 りんな",
   "js_web_crypto_error": "Jūsų naršyklėje nėra funkcionalaus „web.crypto“ elemento. Ar jūs šį tinklalapį žiūrite iš saugaus konteksto?",
   "js_web_workers_error": "Jūsų naršyklė nepalaiko aptarnavimo scenarijų, kuriuos „Anubis“ naudoja išvengti naršyklės strigčių. Gal turite įdiegtą „JShelter“ ar panašų įskiepį?",
   "js_cookies_error": "Jūsų naršyklė nepriima slapukų. „Anubis“ iššūkį jau praėjusius lankytojus atskiria pagal prieigos raktą, kurį įrašo slapuke. Prašom įjungti slapukus šiai svetainei. „Anubis“ slapuko pavadinimas gali kisti be įspėjimo. Slapuko pavadinimas ir reikšmė nėra viešosios programavimo sąsajos dalis.",
@@ -62,6 +62,5 @@
   "js_iterations": "iteracijų",
   "js_finished_reading": "Viską perskaičiau, tęskime →",
   "js_calculation_error": "Skaičiavimo klaida!",
-  "js_calculation_error_msg": "Nepavyko įveikti iššūkio:",
-  "missing_required_forwarded_headers": "Trūksta privalomų X-Forwarded-* antraščių"
+  "js_calculation_error_msg": "Nepavyko įveikti iššūkio:"
 }

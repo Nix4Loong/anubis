@@ -42,7 +42,7 @@
   "benchmarking_anubis": "Anubis kıyaslanıyor!",
   "you_are_not_a_bot": "Bot değilsiniz!",
   "making_sure_not_bot": "Bot olmadığınızdan emin oluyoruz!",
-  "celphase": "CELPHASE",
+  "celphase": "天羽 りんな",
   "js_web_crypto_error": "Tarayıcınızda çalışan bir web.crypto öğesi yok. Bu sayfayı güvenli bir bağlantı üzerinden mi görüntülüyorsunuz?",
   "js_web_workers_error": "Tarayıcınız web işçilerini desteklemiyor (Anubis, tarayıcınızın donmaması için bunları kullanır). JShelter gibi bir eklenti mi kurulu?",
   "js_cookies_error": "Tarayıcınız çerezleri kaydetmiyor. Anubis, kullanıcıların zorlukları geçtiğini belirlemek için imzalı bir belirteci çerezde saklar. Lütfen bu alan adı için çerezleri etkinleştirin. Anubis’in kullandığı çerez adları önceden bildirilmeksizin değişebilir. Çerez adları ve değerleri resmi API’nin bir parçası değildir.",

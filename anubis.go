@@ -1,7 +1,22 @@
 // Package anubis contains the version number of Anubis.
 package anubis
 
-import "time"
+import (
+	"math/rand/v2"
+	"time"
+)
+
+// MascotSets is the list of mascot subdirectories under static/img that
+// each contain a full set of {pensive,happy,reject}.webp images. MascotSet
+// picks one at random on each call.
+var MascotSets = []string{"shiro", "kuro"}
+
+// MascotSet returns a randomly chosen mascot set name. Callers should invoke
+// this once per request and propagate the result so every image on the page
+// comes from the same set.
+func MascotSet() string {
+	return MascotSets[rand.IntN(len(MascotSets))]
+}
 
 // Version is the current version of Anubis.
 //

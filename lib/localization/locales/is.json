@@ -42,7 +42,7 @@
   "benchmarking_anubis": "Afkastaprófun Anubis!",
   "you_are_not_a_bot": "Þú ert ekki botti!",
   "making_sure_not_bot": "Geng úr skugga um að þú sért ekki botti!",
-  "celphase": "CELPHASE",
+  "celphase": "天羽 りんな",
   "js_web_crypto_error": "Vafrinn þinn er ekki með web.crypto einindi sem virkar. Ertu að skoða þetta í gegnum öruggt umhverfi?",
   "js_web_workers_error": "Vafrinn þinn styður ekki vefvaktara (web workers - Anubis notar þetta til að koma í veg fyrir að vafrinn frjósi). Ertu með viðbót á borð við JShelter uppsetta?",
   "js_cookies_error": "Vafrinn þinn geymir ekki vefkökur. Anubis notar vefkökur til að ákvarða hvaða biðlaraforrit hafi leyst áskoranir og geymir þá undirritað teikn í vefköku. Vinsamlega virkjaðu geymslu á vefkökum fyrir þetta lén. Nöfnin á þeim vefkökum sem Anubis geymir geta breyst fyrirvaralaust. Heiti vefkakna og gildi þeirra eru ekki hluti opinbera API-kerfisviðmótsins.",

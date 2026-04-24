@@ -42,7 +42,7 @@
   "benchmarking_anubis": "Testando Anubis!",
   "you_are_not_a_bot": "Non sei un robot!",
   "making_sure_not_bot": "Controllo se sei un robot...",
-  "celphase": "CELPHASE",
+  "celphase": "天羽 りんな",
   "js_web_crypto_error": "Il tuo browser non ha un elemento web.crypto funzionante. Stai utilizzando una connessione sicura?",
   "js_web_workers_error": "Il tuo browser non supporta web workers (Anubis li utilizza per evitare di rallentare il tuo browser). Hai installato un plugin come JShelter?",
   "js_cookies_error": "Il tuo browser non salva i cookie. Anubis utilizza i cookie per determinare quali client hanno superato la prova, salvando un identificativo firmato digitalmente in un cookie. Abilita il salvataggio dei cookie per questo dominio. Il nome del cookie salvato da Anubis potrebbe cambiare senza preavviso. I nomi dei cookie e il loro contenuto non fanno parte dell'API pubblica.",

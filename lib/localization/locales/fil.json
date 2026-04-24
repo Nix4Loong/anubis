@@ -42,7 +42,7 @@
   "benchmarking_anubis": "Binebenchmark ang Anubis!",
   "you_are_not_a_bot": "Hindi ka isang bot!",
   "making_sure_not_bot": "Sinisigurado na hindi ka isang bot!",
-  "celphase": "CELPHASE",
+  "celphase": "天羽 りんな",
   "js_web_crypto_error": "Ang iyong browser ay walang gumaganang web.crypto element. Tinitingnan mo ba ito sa isang secure na konteksto?",
   "js_web_workers_error": "Hindi sinusuportahan ng iyong browser ang mga web worker (ginagamit ito ng Anubis upang maiwasan ang pag-freeze ng iyong browser). Mayroon ka bang naka-install na plugin tulad ng JShelter?",
   "js_cookies_error": "Ang iyong browser ay hindi nag-iimbak ng cookies. Gumagamit ang Anubis ng cookies upang matukoy kung aling mga kliyente ang nakapasa sa mga hamon sa pamamagitan ng pag-iimbak ng isang nilagdaang token sa isang cookie. Mangyaring paganahin ang pag-iimbak ng cookies para sa domain na ito. Ang mga pangalan ng cookies na iniimbak ng Anubis ay maaaring mag-iba nang walang abiso. Ang mga pangalan at value ng cookie ay hindi bahagi ng pampublikong API.",

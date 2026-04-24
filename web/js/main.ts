@@ -16,10 +16,13 @@ const j = (id: string): any | null => {
   return JSON.parse(elem.textContent);
 };
 
-const imageURL = (mood, cacheBuster, basePrefix) =>
-  u(`${basePrefix}/.within.website/x/cmd/anubis/static/img/${mood}.webp`, {
-    cacheBuster,
-  });
+const imageURL = (mood, cacheBuster, basePrefix, mascotSet) =>
+  u(
+    `${basePrefix}/.within.website/x/cmd/anubis/static/img/${mascotSet}/${mood}.webp`,
+    {
+      cacheBuster,
+    },
+  );
 
 // Detect available languages by loading the manifest
 const getAvailableLanguages = async () => {
@@ -127,6 +130,7 @@ const t = (key) => translations[`js_${key}`] || translations[key] || key;
 
   const anubisVersion = j("anubis_version");
   const basePrefix = j("anubis_base_prefix");
+  const mascotSet = j("anubis_mascot_set");
   const details = document.querySelector("details");
   let userReadDetails = false;
 
@@ -152,7 +156,7 @@ const t = (key) => translations[`js_${key}`] || translations[key] || key;
       ohNoes({
         titleMsg: `${t("missing_feature")} ${name}`,
         statusMsg: msg,
-        imageSrc: imageURL("reject", anubisVersion, basePrefix),
+        imageSrc: imageURL("reject", anubisVersion, basePrefix, mascotSet),
       });
       return;
     }
@@ -165,7 +169,7 @@ const t = (key) => translations[`js_${key}`] || translations[key] || key;
     ohNoes({
       titleMsg: t("challenge_error"),
       statusMsg: t("challenge_error_msg"),
-      imageSrc: imageURL("reject", anubisVersion, basePrefix),
+      imageSrc: imageURL("reject", anubisVersion, basePrefix, mascotSet),
     });
     return;
   }
@@ -275,7 +279,7 @@ const t = (key) => translations[`js_${key}`] || translations[key] || key;
     ohNoes({
       titleMsg: t("calculation_error"),
       statusMsg: `${t("calculation_error_msg")} ${err.message}`,
-      imageSrc: imageURL("reject", anubisVersion, basePrefix),
+      imageSrc: imageURL("reject", anubisVersion, basePrefix, mascotSet),
     });
   }
 })();
